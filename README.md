@@ -1,71 +1,55 @@
-//==========================
-//READ.ME
-//==========================
+
+# メニュー1(#test)
+## 折り返し
+## [リンクテキスト](https://www.google.co.jp "タイトル")
+## [リンクテキスト](/html/my.md "自己紹介")
+## ![代替テキスト](https://qiita-image-store.s3.amazonaws.com/0/45617/015bd058-7ea0-e6a5-b9cb-36a4fb38e59c.png "画像タイトル")                   
+
+* * *
+***
+*****
+- - -
+
+# ヘッダー
+## h2
+### h3
+
+# チェックボックス
+- [ ] タスク1
+- [x] タスク2
 
 
+# 折り返し
+<details><summary>サンプルコード</summary>
+
+(上に空行が必要)
+
+```rb
+puts 'Hello, World'
+```
+</details>
+
+# 引用
+> 文頭に>を置くことで引用になります。
+> 複数行にまたがる場合、改行のたびにこの記号を置く必要があります。
+> **引用の上下にはリストと同じく空行がないと正しく表示されません**
+> 引用の中に別のMarkdownを使用することも可能です。
+> 
+> > これはネストされた引用です。
 
 
+# タイトルとAlignが必要
+| Title| Title2 | Title3 |
+|:-----------|------------:|:------------:|
+|うんこ|うんこ|げり|
+|げり|うんこ|げり|
 
 
-
-
-
-=================================
-
-
-
-
-
-
-
-
-## [戻る](.index.md)
-
-## マークダウンの使い方
-
-
-# menu
-- [リンク設定](#link)
-- [フォーマット指定](#format)
-- [画像](#image)
-- [引用](#quote)
-- [その他](#sonota)
-- [テーブル](#table)
-
-# link
-リンク設定はいつでもできる
-開始大文字無理だし、</br>日本語無理だし</br>
-どうなってんねん
-
-# format
-```JavaScript
-
-function a()
-{
-    a(); //再帰呼出し
-}
-
+# 書式
+```math
+\left( \sum_{k=1}^n a_k b_k \right)^{\!\!2} \leq
+\left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
 ```
 
-# image
-![test](./image/test.png "Qiita")
-
-# quote
-> 引用してますわ
-
-# sonota
-**a**
---a--
-
-
-# table
-* 必ず２行目に|:--|を書く必要がある
-
-|3|2|1|
-|:-|-:|:-|
-|3|2|1|
-|3|2|1|
-|3|2|1|
-
-
-[戻る](#menu)
+# YouTube
+<iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1UVf-VE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
